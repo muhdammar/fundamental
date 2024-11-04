@@ -12,7 +12,7 @@
             public string FirstName;
             public string LastName;
 
-            public void FullName()
+            public void PrintFullName()
             {
                 Console.WriteLine(FirstName + " " + LastName);
             }
@@ -67,14 +67,14 @@
             FullTimeEmployee ft = new FullTimeEmployee();
             ft.FirstName = "Full";
             ft.LastName = "Time";
-            ft.FullName();
+            ft.PrintFullName();
             ft.Yearlysal = 800000;
 
             //derived class has specific field
             PartTimeEmployee pt = new PartTimeEmployee();
             pt.FirstName = "Part";
             pt.LastName = "Time";
-            pt.FullName();
+            pt.PrintFullName();
             pt.Hourlysal = 99999;
 
             //c# suppport multiple derived class
