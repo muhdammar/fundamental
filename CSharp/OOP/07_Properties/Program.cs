@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace _07_Properties
+namespace _07_01_Properties
 {
     public class Student
     {
