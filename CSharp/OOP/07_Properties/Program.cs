@@ -7,7 +7,7 @@ namespace _07_Properties
         // Private fields
         private int _id;
         private string _name;
-        private double _passMark;
+        private double _passMark = 35;
 
         public void SetId(int Id)
         {
@@ -40,6 +40,11 @@ namespace _07_Properties
             }
             return this._name;
         }
+
+        public double GetPassMark()
+        {
+            return this._passMark;
+        }
     }
 
     class Program
@@ -52,6 +57,7 @@ namespace _07_Properties
             Console.WriteLine("Student Name = {0}", C1.GetName());
             C1.SetName("Ammar");
             Console.WriteLine("Student Name after change = {0}", C1.GetName());
+            Console.WriteLine("Pass mark = {0}", C1.GetPassMark());
             //C1.SetName(null);//uncomment this to remove syntax error
         }
     }
