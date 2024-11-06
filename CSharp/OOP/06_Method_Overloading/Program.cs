@@ -27,7 +27,7 @@
         //    return (float)a + (float)b;
         //}
 
-        // SYNTAX ERROR - BECAUSE SAME PARAMETER EVEN DIFFERENT RETURN TYPE
+        // SYNTAX ERROR - BECAUSE SAME PARAMETER
         public double Add(double a, params double b) //This "params"
         {
             return a + b;
