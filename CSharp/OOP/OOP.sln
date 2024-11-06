@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_MethodHiding", "04_Metho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Polymorphism", "05_Polymorphism\05_Polymorphism.csproj", "{ECC567C5-1688-48A3-B3B5-E05F552F8F0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Method_Overloading", "06_Method_Overloading\06_Method_Overloading.csproj", "{EF5D81AD-980C-47B5-85DB-AAD84A18A4CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ECC567C5-1688-48A3-B3B5-E05F552F8F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECC567C5-1688-48A3-B3B5-E05F552F8F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECC567C5-1688-48A3-B3B5-E05F552F8F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5D81AD-980C-47B5-85DB-AAD84A18A4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5D81AD-980C-47B5-85DB-AAD84A18A4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5D81AD-980C-47B5-85DB-AAD84A18A4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5D81AD-980C-47B5-85DB-AAD84A18A4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
