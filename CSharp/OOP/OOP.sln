@@ -9,17 +9,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_IntroductionToClasses", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Inheritance", "03_Inheritance\03_Inheritance.csproj", "{5A91935C-1FED-466C-8A6B-FBBF1CAAD8E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_MethodHiding", "04_MethodHiding\04_MethodHiding.csproj", "{C2CEEC8A-0ED3-4F65-A409-57183277DC54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_MethodHiding", "04_MethodHiding\04_MethodHiding.csproj", "{C2CEEC8A-0ED3-4F65-A409-57183277DC54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_Polymorphism", "05_Polymorphism\05_Polymorphism.csproj", "{ECC567C5-1688-48A3-B3B5-E05F552F8F0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_Polymorphism", "05_Polymorphism\05_Polymorphism.csproj", "{ECC567C5-1688-48A3-B3B5-E05F552F8F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Method_Overloading", "06_Method_Overloading\06_Method_Overloading.csproj", "{EF5D81AD-980C-47B5-85DB-AAD84A18A4CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_Method_Overloading", "06_Method_Overloading\06_Method_Overloading.csproj", "{EF5D81AD-980C-47B5-85DB-AAD84A18A4CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_01_Properties", "07_Properties\07_01_Properties.csproj", "{770C6B14-B276-45CD-91B1-78BCA9206117}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_01_Properties", "07_Properties\07_01_Properties.csproj", "{770C6B14-B276-45CD-91B1-78BCA9206117}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_02_Properties_Enhancement", "07_02_Properties_Enhancement\07_02_Properties_Enhancement.csproj", "{63DEF617-FCAB-46C5-B463-ED97A91ABB31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_02_Properties_Enhancement", "07_02_Properties_Enhancement\07_02_Properties_Enhancement.csproj", "{63DEF617-FCAB-46C5-B463-ED97A91ABB31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Structs", "08_Structs\08_Structs.csproj", "{0352EDCF-5622-475E-8321-50C2527CFFBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Structs", "08_Structs\08_Structs.csproj", "{0352EDCF-5622-475E-8321-50C2527CFFBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Structs_VS_Classes", "09_Structs_VS_Classes\09_Structs_VS_Classes.csproj", "{2170714A-43F3-42FE-9E45-5CCD5C6380C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{0352EDCF-5622-475E-8321-50C2527CFFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0352EDCF-5622-475E-8321-50C2527CFFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0352EDCF-5622-475E-8321-50C2527CFFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2170714A-43F3-42FE-9E45-5CCD5C6380C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2170714A-43F3-42FE-9E45-5CCD5C6380C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2170714A-43F3-42FE-9E45-5CCD5C6380C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2170714A-43F3-42FE-9E45-5CCD5C6380C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
