@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_02_Properties_Enhancemen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Structs", "08_Structs\08_Structs.csproj", "{0352EDCF-5622-475E-8321-50C2527CFFBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Structs_VS_Classes", "09_Structs_VS_Classes\09_Structs_VS_Classes.csproj", "{2170714A-43F3-42FE-9E45-5CCD5C6380C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Structs_VS_Classes", "09_Structs_VS_Classes\09_Structs_VS_Classes.csproj", "{2170714A-43F3-42FE-9E45-5CCD5C6380C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Interfaces", "10_Interfaces\10_Interfaces.csproj", "{559B66F6-2C92-4B4C-AF3D-E639306C07BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{2170714A-43F3-42FE-9E45-5CCD5C6380C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2170714A-43F3-42FE-9E45-5CCD5C6380C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2170714A-43F3-42FE-9E45-5CCD5C6380C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559B66F6-2C92-4B4C-AF3D-E639306C07BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559B66F6-2C92-4B4C-AF3D-E639306C07BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559B66F6-2C92-4B4C-AF3D-E639306C07BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559B66F6-2C92-4B4C-AF3D-E639306C07BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
