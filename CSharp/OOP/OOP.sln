@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Structs_VS_Classes", "09
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Interfaces", "10_Interfaces\10_Interfaces.csproj", "{559B66F6-2C92-4B4C-AF3D-E639306C07BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Explicit_Interfaces", "11_Explicit_Interfaces\11_Explicit_Interfaces.csproj", "{4CCC4550-4529-46BF-83F6-05E6002C23B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Explicit_Interfaces", "11_Explicit_Interfaces\11_Explicit_Interfaces.csproj", "{4CCC4550-4529-46BF-83F6-05E6002C23B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Abstract_Class", "12_Abstract_Class\12_Abstract_Class.csproj", "{61969779-D027-4C85-827E-91C85A659196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Abstract_Class", "12_Abstract_Class\12_Abstract_Class.csproj", "{61969779-D027-4C85-827E-91C85A659196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Multiple_Class_Inheritance_Using_Interfaces", "13_Multiple_Class_Inheritance_Using_Interfaces\13_Multiple_Class_Inheritance_Using_Interfaces.csproj", "{7822F0E4-4D81-4C6D-AFE4-848772C358B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{61969779-D027-4C85-827E-91C85A659196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61969779-D027-4C85-827E-91C85A659196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61969779-D027-4C85-827E-91C85A659196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7822F0E4-4D81-4C6D-AFE4-848772C358B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7822F0E4-4D81-4C6D-AFE4-848772C358B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7822F0E4-4D81-4C6D-AFE4-848772C358B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7822F0E4-4D81-4C6D-AFE4-848772C358B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
