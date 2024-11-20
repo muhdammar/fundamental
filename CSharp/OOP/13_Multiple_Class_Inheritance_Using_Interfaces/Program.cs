@@ -26,7 +26,7 @@
         }
     }
 
-    class AB : IA, IB
+    class AB : IA, IB //A, B -> this not allow to have multiple class inherintaces, so we use interface instead
     {
         A a = new A();
         B b = new B();
@@ -44,6 +44,7 @@
     {
         static void Main(string[] args)
         {
+            //we use interface for mutilple inheritance for classes
             AB ab = new AB();
             ab.AMethod();
             ab.BMethod();
