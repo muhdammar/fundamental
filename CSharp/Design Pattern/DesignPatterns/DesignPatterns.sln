@@ -7,15 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Udemy", "Udemy", "{BDFEDE02
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{551DDD57-AB40-4FFE-8A8E-746AD505EC0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Single_Responsibility_Principle", "Single_Responsibility_Principle\1_Single_Responsibility_Principle.csproj", "{8F3FEB3B-C633-4EB7-BCEF-3F151FA3D9A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Single_Responsibility_Principle", "Single_Responsibility_Principle\1_Single_Responsibility_Principle.csproj", "{8F3FEB3B-C633-4EB7-BCEF-3F151FA3D9A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Open_Closed_Principle", "Open_Closed_Principle\2_Open_Closed_Principle.csproj", "{727B3BD2-94E1-473C-95B7-592223818B20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Open_Closed_Principle", "Open_Closed_Principle\2_Open_Closed_Principle.csproj", "{727B3BD2-94E1-473C-95B7-592223818B20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Liskov_Subtitution_Principle - BAD EXAMPLE", "3_Liskov_Subtitution_Principle\3_Liskov_Subtitution_Principle - BAD EXAMPLE.csproj", "{E00B350F-F8F2-481F-A827-6686EE65A325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Liskov_Subtitution_Principle - BAD EXAMPLE", "3_Liskov_Subtitution_Principle\3_Liskov_Subtitution_Principle - BAD EXAMPLE.csproj", "{E00B350F-F8F2-481F-A827-6686EE65A325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Liskov_Subtitution_Principle - GOOD EXAMPLE", "3_Liskov_Subtitution_Principle - GOOD EXAMPLE\3_Liskov_Subtitution_Principle - GOOD EXAMPLE.csproj", "{49E9EE5D-1630-4DD7-A470-BEE6765E6C72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Liskov_Subtitution_Principle - GOOD EXAMPLE", "3_Liskov_Subtitution_Principle - GOOD EXAMPLE\3_Liskov_Subtitution_Principle - GOOD EXAMPLE.csproj", "{49E9EE5D-1630-4DD7-A470-BEE6765E6C72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Interface_Segregation_Principle", "4_Interface_Segregation_Principle\4_Interface_Segregation_Principle.csproj", "{25C6945E-12BB-4F3F-AF50-4FCCE6DA2368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Interface_Segregation_Principle", "4_Interface_Segregation_Principle\4_Interface_Segregation_Principle.csproj", "{25C6945E-12BB-4F3F-AF50-4FCCE6DA2368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Dependency_Inversion_Principle - GOOD EXAMPLE", "5_Dependency_Inversion_Principle\5_Dependency_Inversion_Principle - GOOD EXAMPLE.csproj", "{0623CE5C-D017-484D-8F38-8AE7B94412DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Dependency_Inversion_Principle - BAD EXAMPLE", "5_Dependency_Inversion_Principle - BAD EXAMPLE\5_Dependency_Inversion_Principle - BAD EXAMPLE.csproj", "{E3FDCAE2-639A-4964-99B0-B822AB0DB464}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,14 @@ Global
 		{25C6945E-12BB-4F3F-AF50-4FCCE6DA2368}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25C6945E-12BB-4F3F-AF50-4FCCE6DA2368}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25C6945E-12BB-4F3F-AF50-4FCCE6DA2368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0623CE5C-D017-484D-8F38-8AE7B94412DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0623CE5C-D017-484D-8F38-8AE7B94412DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0623CE5C-D017-484D-8F38-8AE7B94412DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0623CE5C-D017-484D-8F38-8AE7B94412DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FDCAE2-639A-4964-99B0-B822AB0DB464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FDCAE2-639A-4964-99B0-B822AB0DB464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FDCAE2-639A-4964-99B0-B822AB0DB464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FDCAE2-639A-4964-99B0-B822AB0DB464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +66,7 @@ Global
 		{E00B350F-F8F2-481F-A827-6686EE65A325} = {551DDD57-AB40-4FFE-8A8E-746AD505EC0E}
 		{49E9EE5D-1630-4DD7-A470-BEE6765E6C72} = {551DDD57-AB40-4FFE-8A8E-746AD505EC0E}
 		{25C6945E-12BB-4F3F-AF50-4FCCE6DA2368} = {551DDD57-AB40-4FFE-8A8E-746AD505EC0E}
+		{0623CE5C-D017-484D-8F38-8AE7B94412DD} = {551DDD57-AB40-4FFE-8A8E-746AD505EC0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EC996B3-1C5F-4145-AD62-58C92790E16C}
