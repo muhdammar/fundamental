@@ -17,9 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Liskov_Subtitution_Princi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Interface_Segregation_Principle", "4_Interface_Segregation_Principle\4_Interface_Segregation_Principle.csproj", "{25C6945E-12BB-4F3F-AF50-4FCCE6DA2368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Dependency_Inversion_Principle - GOOD EXAMPLE", "5_Dependency_Inversion_Principle\5_Dependency_Inversion_Principle - GOOD EXAMPLE.csproj", "{0623CE5C-D017-484D-8F38-8AE7B94412DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Dependency_Inversion_Principle - GOOD EXAMPLE", "5_Dependency_Inversion_Principle\5_Dependency_Inversion_Principle - GOOD EXAMPLE.csproj", "{0623CE5C-D017-484D-8F38-8AE7B94412DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Dependency_Inversion_Principle - BAD EXAMPLE", "5_Dependency_Inversion_Principle - BAD EXAMPLE\5_Dependency_Inversion_Principle - BAD EXAMPLE.csproj", "{E3FDCAE2-639A-4964-99B0-B822AB0DB464}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Dependency_Inversion_Principle - BAD EXAMPLE", "5_Dependency_Inversion_Principle - BAD EXAMPLE\5_Dependency_Inversion_Principle - BAD EXAMPLE.csproj", "{E3FDCAE2-639A-4964-99B0-B822AB0DB464}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{BB139DE6-7B07-407D-AB09-3B4837953EA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{F505BCCA-2FA5-4D05-A80A-AC81191CE18F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +61,10 @@ Global
 		{E3FDCAE2-639A-4964-99B0-B822AB0DB464}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3FDCAE2-639A-4964-99B0-B822AB0DB464}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3FDCAE2-639A-4964-99B0-B822AB0DB464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +77,10 @@ Global
 		{49E9EE5D-1630-4DD7-A470-BEE6765E6C72} = {551DDD57-AB40-4FFE-8A8E-746AD505EC0E}
 		{25C6945E-12BB-4F3F-AF50-4FCCE6DA2368} = {551DDD57-AB40-4FFE-8A8E-746AD505EC0E}
 		{0623CE5C-D017-484D-8F38-8AE7B94412DD} = {551DDD57-AB40-4FFE-8A8E-746AD505EC0E}
+		{E3FDCAE2-639A-4964-99B0-B822AB0DB464} = {551DDD57-AB40-4FFE-8A8E-746AD505EC0E}
+		{BB139DE6-7B07-407D-AB09-3B4837953EA8} = {BDFEDE02-F247-42F8-953B-58C6DF77F87B}
+		{F505BCCA-2FA5-4D05-A80A-AC81191CE18F} = {BB139DE6-7B07-407D-AB09-3B4837953EA8}
+		{06728A08-B1D7-485C-8565-C6E0ABBAFAEC} = {F505BCCA-2FA5-4D05-A80A-AC81191CE18F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EC996B3-1C5F-4145-AD62-58C92790E16C}
