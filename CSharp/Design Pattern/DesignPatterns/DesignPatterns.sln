@@ -25,7 +25,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{F505BCCA-2FA5-4D05-A80A-AC81191CE18F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderInheritanceWithRecursive", "BuilderInheritanceWithRecursive\BuilderInheritanceWithRecursive.csproj", "{487195BC-5BDD-4264-A0F2-88610FD5D880}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06728A08-B1D7-485C-8565-C6E0ABBAFAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487195BC-5BDD-4264-A0F2-88610FD5D880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487195BC-5BDD-4264-A0F2-88610FD5D880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487195BC-5BDD-4264-A0F2-88610FD5D880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487195BC-5BDD-4264-A0F2-88610FD5D880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{BB139DE6-7B07-407D-AB09-3B4837953EA8} = {BDFEDE02-F247-42F8-953B-58C6DF77F87B}
 		{F505BCCA-2FA5-4D05-A80A-AC81191CE18F} = {BB139DE6-7B07-407D-AB09-3B4837953EA8}
 		{06728A08-B1D7-485C-8565-C6E0ABBAFAEC} = {F505BCCA-2FA5-4D05-A80A-AC81191CE18F}
+		{487195BC-5BDD-4264-A0F2-88610FD5D880} = {F505BCCA-2FA5-4D05-A80A-AC81191CE18F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EC996B3-1C5F-4145-AD62-58C92790E16C}
