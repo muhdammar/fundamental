@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Multi_Cast_Delegates", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "45_47_Enums", "45_47_Enums\45_47_Enums.csproj", "{4B2E8123-EF87-4ED3-825C-F07D64B9545E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "48_Types_Vs_TypesMember", "48_Types_Vs_TypesMember\48_Types_Vs_TypesMember.csproj", "{EA40CCA8-7325-418A-A560-AEA05CE88FE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "48_Types_Vs_TypesMember", "48_Types_Vs_TypesMember\48_Types_Vs_TypesMember.csproj", "{EA40CCA8-7325-418A-A560-AEA05CE88FE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "49_Access_Modifiers", "49_Access_Modifiers\49_Access_Modifiers.csproj", "{26A5BE61-D27F-4538-953B-3714CD43790A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "49_Access_Modifiers", "49_Access_Modifiers\49_Access_Modifiers.csproj", "{26A5BE61-D27F-4538-953B-3714CD43790A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53_Reflection", "53_Reflection\53_Reflection.csproj", "{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{26A5BE61-D27F-4538-953B-3714CD43790A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26A5BE61-D27F-4538-953B-3714CD43790A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26A5BE61-D27F-4538-953B-3714CD43790A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
