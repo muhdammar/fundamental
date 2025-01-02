@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "48_Types_Vs_TypesMember", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "49_Access_Modifiers", "49_Access_Modifiers\49_Access_Modifiers.csproj", "{26A5BE61-D27F-4538-953B-3714CD43790A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "53_Reflection", "53_Reflection\53_Reflection.csproj", "{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "53_Reflection", "53_Reflection\53_Reflection.csproj", "{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "55_Generics", "55_Generics\55_Generics.csproj", "{19E34E6C-94F2-40F5-B469-E10A71D02F50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2FEFDDB-DD9B-4C84-9642-360A16C5E03E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E34E6C-94F2-40F5-B469-E10A71D02F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E34E6C-94F2-40F5-B469-E10A71D02F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E34E6C-94F2-40F5-B469-E10A71D02F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E34E6C-94F2-40F5-B469-E10A71D02F50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
