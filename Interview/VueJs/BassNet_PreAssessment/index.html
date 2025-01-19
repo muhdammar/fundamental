@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabet Grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div class="max-w-xl mx-auto">
+            <div class="grid grid-cols-6 gap-2 mt-4 mb-6">
+                <template v-for="(letter, index) in letters" :key="index">
+                    <div 
+                        class="w-12 h-12 flex items-center justify-center font-bold rounded-full cursor-pointer"
+                        :class="[
+                            selectedLetter === letter 
+                                ? 'bg-pink-500 text-white' 
+                                : 'bg-gray-200 hover:bg-gray-300'
+                        ]"
+                        @click="selectLetter(letter)"
+                    >
+                        {{ letter }}
+                    </div>
+                </template>
+            </div>
+
+            <div class="bg-black text-pink-500 p-4 rounded">
+                <ul class="space-y-2">
+                    <template v-for="item in filteredItems" :key="item">
+                        <li>{{ item }}</li>
+                    </template>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp, ref, computed } = Vue
+
+        createApp({
+            setup() {
+                const letters = [
+                    'A', 'B', 'C', 'D', 'E', 'F',
+                    'G', 'H', 'J', 'K', 'L', 'M',
+                    'N', 'O', 'P', 'Q', 'R', 'S',
+                    'T', 'U', 'W', 'Y', 'Z'
+                ]
+
+                const items = [
+                'Apple',
+                'Avocado',
+                'Apricot',
+                'Almond',
+                'Banana',
+                'Blueberry',
+                'Blackberry',
+                'Cherry',
+                'Carrot',
+                'Cucumber',
+                'Dragon Fruit',
+                'Date',
+                'Durian',
+                'Elderberry',
+                'Eggplant',
+                'Fig',
+                'Finger Lime',
+                'Grape',
+                'Guava',
+                'Grapefruit',
+                'Honeydew',
+                'Hazelnut',
+                'Ice Plant',
+                'Indian Fig',
+                'Jackfruit',
+                'Jujube',
+                'Kiwi',
+                'Kumquat',
+                'Lemon',
+                'Lime',
+                'Lychee',
+                'Mango',
+                'Melon',
+                'Mulberry',
+                'Nectarine',
+                'Orange',
+                'Olive',
+                'Pear',
+                'Peach',
+                'Plum',
+                'Quince',
+                'Raspberry',
+                'Rambutan',
+                'Strawberry',
+                'Star Fruit',
+                'Tomato',
+                'Tangerine',
+                'Ugli Fruit',
+                'Vanilla Bean',
+                'Watermelon',
+                'Xigua',
+                'Yellow Watermelon',
+                'Zucchini'
+                ];
+
+                const selectedLetter = ref('A')
+
+                const filteredItems = computed(() => {
+                    console.log("clicked selected trigger")
+                    return items.filter(item => 
+                        item.toLowerCase().startsWith(selectedLetter.value.toLowerCase())
+                    )
+                })
+
+                const selectLetter = (letter) => {
+                    selectedLetter.value = letter
+                }
+
+                return {
+                    letters,
+                    selectedLetter,
+                    filteredItems,
+                    selectLetter
+                }
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>
