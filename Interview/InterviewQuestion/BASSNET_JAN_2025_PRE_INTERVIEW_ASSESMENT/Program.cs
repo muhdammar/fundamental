@@ -1,7 +1,21 @@
-﻿using System.Linq;
+﻿using System.ComponentModel;
+using System.Linq;
 
 namespace BASSNET_JAN_2025_PRE_INTERVIEW_ASSESMENT
 {
+    //Question 1:
+    //You are given an integer where each digit or a pair of digits can be mapped to a corresponding letter: 
+    //The digit `1` is mapped to the letter `a`, `2 to `b`, …., up to `26`, which is mapped to the letter `z`. 
+    //For examples, the number 12258 can be translated to “abbeh”, “aveh”, “abyh”, “lbeh” and “lyh”, so there are 5 different ways to translate 12258. 
+    //How to write a function/method to count the different ways to translate a number?
+
+    //Answer
+
+
+
+    /// <summary>
+    /// Question 2
+    /// </summary>
     /*
         ####### Customer List for date 09/01/2024 #####
 
