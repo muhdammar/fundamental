@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "61_Partial_Classes", "61_Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "64_65_66_Indexers", "64_65_66_Indexers\64_65_66_Indexers.csproj", "{353AD2EC-9A89-4A96-B612-77CA6F084A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "67_68_69_70_Optional_Parameter", "67_68_69_70_Optional_Parameter\67_68_69_70_Optional_Parameter.csproj", "{6112CDB3-4724-419A-A539-8FCA7E6ECE7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "67_68_69_70_Optional_Parameter", "67_68_69_70_Optional_Parameter\67_68_69_70_Optional_Parameter.csproj", "{6112CDB3-4724-419A-A539-8FCA7E6ECE7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "72_73_Dictionary", "72_73_Dictionary\72_73_Dictionary.csproj", "{F42C3C26-A76F-4968-8A46-5D6780B0FBDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{6112CDB3-4724-419A-A539-8FCA7E6ECE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6112CDB3-4724-419A-A539-8FCA7E6ECE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6112CDB3-4724-419A-A539-8FCA7E6ECE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42C3C26-A76F-4968-8A46-5D6780B0FBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42C3C26-A76F-4968-8A46-5D6780B0FBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42C3C26-A76F-4968-8A46-5D6780B0FBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42C3C26-A76F-4968-8A46-5D6780B0FBDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
