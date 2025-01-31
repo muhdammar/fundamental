@@ -101,7 +101,7 @@
             // Insert() method allows you to insert a single item at a time into 
             // the list at a specificed index
             listCustomers.Insert(0, customer1);
-            listCustomers.Insert(0, customer2);
+            listCustomers.Insert(1, customer2);
             listCustomers.Insert(2, customer3);
 
             // InsertRange() allows you, to insert another list of items to your list at the specified index
