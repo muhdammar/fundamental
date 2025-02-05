@@ -9,6 +9,12 @@
     /// </summary>
     abstract class Customer {
 
+        /// <summary>
+        /// base class will initialized before calling child class constructor
+        /// </summary>
+        public Customer() {
+            Console.WriteLine("abstract class Customer constructor initialized before child class");
+        }
 
         /// <summary>
         /// abstract keyword:
@@ -24,6 +30,8 @@
         {
             Console.WriteLine("called abstract Display() method");
         }
+
+        public abstract string Name { set; get; }
     }
 
     /// <summary>
@@ -31,6 +39,13 @@
     /// </summary>
     internal class Program : Customer
     {
+        public Program()
+        {
+            Console.WriteLine("class Program constructor initialized after base class");
+        }
+
+        public override string Name { get; set; }
+
         /// <summary>
         /// how to override/implement abstract class
         /// 1. need to use override keyword
@@ -55,11 +70,15 @@
             Program program = new Program();
             program.Print();
             program.Display();
+            program.Name = "Test";
 
             //WAY #2
             Customer c = new Program();
             c.Print();
             c.Display();
+            c.Name = "Muhammad Ammar";
+
+            Console.WriteLine(c.Name);
         }
     }
 
