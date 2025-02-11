@@ -81,6 +81,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "90_ Passing_data_to_the_Thr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "91_Thread_function_using_callback_method", "91_Thread_function_using_callback_method\91_Thread_function_using_callback_method.csproj", "{0DEA1931-2B70-46FC-9CE9-9B2672CBAB4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "92_Significance_of_ThreadJoin_and_ThreadIsAlive_functions", "93_Significance_of_ThreadJoin_and_ThreadIsAlive_functions\92_Significance_of_ThreadJoin_and_ThreadIsAlive_functions.csproj", "{251A29E4-A573-43E1-AE0A-C87E0D1B646C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{0DEA1931-2B70-46FC-9CE9-9B2672CBAB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DEA1931-2B70-46FC-9CE9-9B2672CBAB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DEA1931-2B70-46FC-9CE9-9B2672CBAB4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251A29E4-A573-43E1-AE0A-C87E0D1B646C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251A29E4-A573-43E1-AE0A-C87E0D1B646C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251A29E4-A573-43E1-AE0A-C87E0D1B646C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251A29E4-A573-43E1-AE0A-C87E0D1B646C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
