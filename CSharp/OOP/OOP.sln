@@ -73,11 +73,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "82_Generic_Queue_Collection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "83_Generic_Stack_Collection_Class", "82_Generic_Stack_Collection_Class\83_Generic_Stack_Collection_Class.csproj", "{235519E8-5FC0-45B5-BD1C-194DDAAC5FB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "88_ThreadStart_delegate", "88_ThreadStart_delegate\88_ThreadStart_delegate.csproj", "{BA1A7A34-89FD-45AD-B52C-D72339FA6E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "88_ThreadStart_delegate", "88_ThreadStart_delegate\88_ThreadStart_delegate.csproj", "{BA1A7A34-89FD-45AD-B52C-D72339FA6E88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "89_ParameterizedThreadStart_delegate", "89_ParameterizedThreadStart_delegate\89_ParameterizedThreadStart_delegate.csproj", "{191ECF68-04CB-4599-A94D-6A545A56217C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "89_ParameterizedThreadStart_delegate", "89_ParameterizedThreadStart_delegate\89_ParameterizedThreadStart_delegate.csproj", "{191ECF68-04CB-4599-A94D-6A545A56217C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "90_ Passing_data_to_the_Thread_function_in_a_type_safe_manner", "90_ Passing_data_to_the_Thread_function_in_a_type_safe_manner\90_ Passing_data_to_the_Thread_function_in_a_type_safe_manner.csproj", "{ABEBEAF9-C294-4158-B600-955CB89EDE29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "90_ Passing_data_to_the_Thread_function_in_a_type_safe_manner", "90_ Passing_data_to_the_Thread_function_in_a_type_safe_manner\90_ Passing_data_to_the_Thread_function_in_a_type_safe_manner.csproj", "{ABEBEAF9-C294-4158-B600-955CB89EDE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "91_Thread_function_using_callback_method", "91_Thread_function_using_callback_method\91_Thread_function_using_callback_method.csproj", "{0DEA1931-2B70-46FC-9CE9-9B2672CBAB4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{ABEBEAF9-C294-4158-B600-955CB89EDE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABEBEAF9-C294-4158-B600-955CB89EDE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABEBEAF9-C294-4158-B600-955CB89EDE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DEA1931-2B70-46FC-9CE9-9B2672CBAB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEA1931-2B70-46FC-9CE9-9B2672CBAB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEA1931-2B70-46FC-9CE9-9B2672CBAB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEA1931-2B70-46FC-9CE9-9B2672CBAB4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
