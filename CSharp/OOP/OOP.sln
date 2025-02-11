@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "91_Thread_function_using_ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "92_Significance_of_ThreadJoin_and_ThreadIsAlive_functions", "93_Significance_of_ThreadJoin_and_ThreadIsAlive_functions\92_Significance_of_ThreadJoin_and_ThreadIsAlive_functions.csproj", "{251A29E4-A573-43E1-AE0A-C87E0D1B646C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "93_Protecting_shared_resources_from_concurrent_access_in_multithreading", "93_Protecting_shared_resources_from_concurrent_access_in_multithreading\93_Protecting_shared_resources_from_concurrent_access_in_multithreading.csproj", "{D50490A9-E734-443C-9E2F-245792316034}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,10 @@ Global
 		{251A29E4-A573-43E1-AE0A-C87E0D1B646C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{251A29E4-A573-43E1-AE0A-C87E0D1B646C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{251A29E4-A573-43E1-AE0A-C87E0D1B646C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50490A9-E734-443C-9E2F-245792316034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50490A9-E734-443C-9E2F-245792316034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50490A9-E734-443C-9E2F-245792316034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50490A9-E734-443C-9E2F-245792316034}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
